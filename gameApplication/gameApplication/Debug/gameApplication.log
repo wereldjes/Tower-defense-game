@@ -1,0 +1,3 @@
+﻿  gameApplication.cpp
+c:\users\pc\source\repos\gameapplication\gameapplication\enemy.h(27): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  gameApplication.vcxproj -> C:\Users\PC\source\repos\gameApplication\Debug\gameApplication.exe
