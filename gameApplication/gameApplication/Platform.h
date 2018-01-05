@@ -5,17 +5,21 @@ using namespace sf;
 class Platform {
 public:
 
-	Platform(Vector2f size, Color color) {
-		platform.setFillColor(color);
-		platform.setSize(size);
+	Platform(Texture texture, Color color) {
+		platform.setColor(color);
+		platform.setTexture(texture);
 	}
 
 	void setPos(Vector2f newPos) {
 		platform.setPosition(newPos);
 	}
+
+	void drawTo(RenderWindow &window) {
+		window.draw(platform);
+	}
 	
 private:
 
-	RectangleShape platform;
+	Sprite platform;
 
 };

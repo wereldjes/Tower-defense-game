@@ -6,9 +6,9 @@ using namespace sf;
 class Enemy {
 public:
 
-	Enemy(Vector2f size, Color color, int enemyWorth) {
-		enemy.setSize(size);
-		enemy.setFillColor(color);
+	Enemy(Texture texture, Color color, int enemyWorth) {
+		enemy.setTexture(texture);
+		enemy.setColor(color);
 	}
 
 	void drawTo(RenderWindow &window) {
@@ -27,6 +27,11 @@ public:
 		return enemy.getPosition().y;
 	}
 
+	int enemyContainer(int setEnemyNumber, Enemy enemyType) {
+		//create array container to hold multiple enemies
+		//Enemy setEnemyContainer[setEnemyNumber] = {enemyType};
+	}
+
 	bool isKilled() {
 		if (enemyHitpoints == 0) {
 			return true;
@@ -34,7 +39,6 @@ public:
 	}
 
 private:
-
 	int enemyHitpoints;
-	RectangleShape enemy;
+	Sprite enemy;
 };
