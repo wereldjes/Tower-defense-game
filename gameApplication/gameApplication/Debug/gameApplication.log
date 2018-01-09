@@ -1,3 +1,2 @@
-﻿  gameApplication.cpp
-c:\users\pc\documents\tower-defense-game\gameapplication\gameapplication\enemy.h(27): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
-  gameApplication.vcxproj -> C:\Users\PC\Documents\Tower-defense-game\gameApplication\Debug\gameApplication.exe
+﻿  Platform.cpp
+  gameApplication.vcxproj -> C:\Users\Dominique\Documents\GitHub\Tower-defense-game\gameApplication\Debug\gameApplication.exe
