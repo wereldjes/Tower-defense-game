@@ -1,2 +1,4 @@
-﻿  Platform.cpp
+﻿  Enemy.cpp
+c:\users\dominique\documents\github\tower-defense-game\gameapplication\gameapplication\enemy.cpp(21): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+c:\users\dominique\documents\github\tower-defense-game\gameapplication\gameapplication\enemy.cpp(34): warning C4715: 'Enemy::isKilled': not all control paths return a value
   gameApplication.vcxproj -> C:\Users\Dominique\Documents\GitHub\Tower-defense-game\gameApplication\Debug\gameApplication.exe

@@ -24,6 +24,7 @@ int Enemy::getY() {
 int Enemy::enemyContainer(int setEnemyNumber, Enemy enemyType) {
 	//create array container to hold multiple enemies
 	//Enemy setEnemyContainer[setEnemyNumber] = {enemyType};
+	return NULL;
 }
 
 bool Enemy::isKilled() {

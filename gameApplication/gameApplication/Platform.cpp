@@ -14,5 +14,7 @@ void Platform::drawTo(RenderWindow &window) {
 }
 
 void Platform::collisionDetection() {
+	/*if () {
 
+	}*/
 }
