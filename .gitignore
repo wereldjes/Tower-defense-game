@@ -346,3 +346,5 @@ __pycache__/
 ### VisualStudio Patch ###
 # By default, sensitive information, such as encrypted password
 # should be stored in the .pubxml.user file.
+gameApplication/.vs/gameApplication/v15/Browse.VC.db
+gameApplication/.vs/gameApplication/v15/Browse.VC.db
