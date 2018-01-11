@@ -8,15 +8,11 @@ public:
 
 	Enemy(float sizeX, float sizeY, float posX, float posY, Color color);
 
-	void getGlobalBounds(Enemy enemy);
-
 	void drawTo(RenderWindow &window);
 
 	void move(Vector2f distance);
 
 	int getY();
-
-	int enemyContainer(int setEnemyNumber, Enemy enemyType);
 
 	bool isKilled();
 

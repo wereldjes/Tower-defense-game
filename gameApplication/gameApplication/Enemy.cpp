@@ -8,9 +8,6 @@ Enemy::Enemy(float sizeX, float sizeY, float posX, float posY, Color color) {
 	enemy.setOutlineThickness(2);
 }
 
-void Enemy::getGlobalBounds(Enemy enemy) {
-}
-
 void Enemy::drawTo(RenderWindow &window) {
 	window.draw(enemy);
 }
@@ -21,12 +18,6 @@ void Enemy::move(Vector2f distance) {
 
 int Enemy::getY() {
 	return enemy.getPosition().y;
-}
-
-int Enemy::enemyContainer(int setEnemyNumber, Enemy enemyType) {
-	//create array container to hold multiple enemies
-	//Enemy setEnemyContainer[setEnemyNumber] = {enemyType};
-	return NULL;
 }
 
 bool Enemy::isKilled() {
