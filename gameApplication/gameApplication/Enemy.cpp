@@ -4,6 +4,8 @@ Enemy::Enemy(float sizeX, float sizeY, float posX, float posY, Color color) {
 	enemy.setSize(Vector2f(sizeX, sizeY));
 	enemy.setPosition(Vector2f(posX, posY));
 	enemy.setFillColor(color);
+	enemy.setOutlineColor(Color::Black);
+	enemy.setOutlineThickness(2);
 }
 
 void Enemy::getGlobalBounds(Enemy enemy) {
