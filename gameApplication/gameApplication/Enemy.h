@@ -1,42 +1,25 @@
 #pragma once
 #include <iostream>
+#include "stdafx.h"
 #include <SFML\Graphics.hpp>
 using namespace sf;
 
 class Enemy {
 public:
 
-	Enemy(Texture texture, Color color, int enemyWorth) {
-		enemy.setTexture(texture);
-		enemy.setColor(color);
-	}
+	Enemy(Texture texture, Color color, int enemyWorth);
 
-	void drawTo(RenderWindow &window) {
-		window.draw(enemy);
-	}
+	void drawTo(RenderWindow &window);
 
-	void move(Vector2f distance) {
-		enemy.move(distance);
-	}
+	void move(Vector2f distance);
 
-	void setPos(Vector2f newPos) {
-		enemy.setPosition(newPos);
-	}
+	void setPos(Vector2f newPos);
 
-	int getY() {
-		return enemy.getPosition().y;
-	}
+	int getY();
 
-	int enemyContainer(int setEnemyNumber, Enemy enemyType) {
-		//create array container to hold multiple enemies
-		//Enemy setEnemyContainer[setEnemyNumber] = {enemyType};
-	}
+	int enemyContainer(int setEnemyNumber, Enemy enemyType);
 
-	bool isKilled() {
-		if (enemyHitpoints == 0) {
-			return true;
-		}
-	}
+	bool isKilled();
 
 private:
 	int enemyHitpoints;
