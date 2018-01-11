@@ -1,8 +1,12 @@
 #include "Enemy.h"
 
-Enemy::Enemy(Texture texture, Color color, int enemyWorth) {
-	enemy.setTexture(texture);
-	enemy.setColor(color);
+Enemy::Enemy(float sizeX, float sizeY, float posX, float posY, Color color) {
+	enemy.setSize(Vector2f(sizeX, sizeY));
+	enemy.setPosition(Vector2f(posX, posY));
+	enemy.setFillColor(color);
+}
+
+void Enemy::getGlobalBounds(Enemy enemy) {
 }
 
 void Enemy::drawTo(RenderWindow &window) {
@@ -11,10 +15,6 @@ void Enemy::drawTo(RenderWindow &window) {
 
 void Enemy::move(Vector2f distance) {
 	enemy.move(distance);
-}
-
-void Enemy::setPos(Vector2f newPos) {
-	enemy.setPosition(newPos);
 }
 
 int Enemy::getY() {

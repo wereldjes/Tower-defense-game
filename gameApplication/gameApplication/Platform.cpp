@@ -1,21 +1,21 @@
 #include "Platform.h"
 
-Platform::Platform() {
-
-}
-
-void Platform::setSize(Vector2f size) {
-	platform.setSize(size);
-}
-
-void Platform::setPosition(Vector2f newPos) {
-	platform.setPosition(newPos);
+Platform::Platform(float sizeX, float sizeY, float posX, float posY, Color color) {
+	platform.setSize(Vector2f(sizeX, sizeY));
+	platform.setPosition(Vector2f(posX, posY));
+	platform.setFillColor(color);
 }
 
 void Platform::drawTo(RenderWindow &window) {
 	window.draw(platform);
 }
 
-void Platform::setFillColor(Color color) {
-	platform.setFillColor(color);
+//check if enemyObject has collision with platformObject. if it has collision, send true and adjust player speed according to the platform being hit
+bool Platform::collisionDetection(Enemy enemy) {
+	/*if (platform.getGlobalBounds().intersects()) {
+		return true;
+	} else {
+		return false;
+	}*/
+	return true;
 }
