@@ -24,4 +24,5 @@ public:
 private:
 	int enemyHitpoints;
 	Sprite enemy;
+
 };

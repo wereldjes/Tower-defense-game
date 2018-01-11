@@ -6,16 +6,18 @@ using namespace sf;
 class Platform {
 public:
 
-	Platform(Texture texture, Color color);
+	Platform();
 
-	void setPos(Vector2f newPos);
+	void setSize(Vector2f size);
+
+	void setPosition(Vector2f newPos);
+
+	void setFillColor(Color color);
 
 	void drawTo(RenderWindow &window);
-
-	void collisionDetection();
 	
 private:
 
-	Sprite platform;
+	RectangleShape platform;
 
 };

@@ -28,7 +28,9 @@ int Enemy::enemyContainer(int setEnemyNumber, Enemy enemyType) {
 }
 
 bool Enemy::isKilled() {
-	if (enemyHitpoints == 0) {
+	if (enemyHitpoints <= 0) {
 		return true;
+	} else {
+		return false;
 	}
 }
