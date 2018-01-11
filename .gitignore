@@ -348,3 +348,5 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 gameApplication/.vs/gameApplication/v15/Browse.VC.db
 gameApplication/.vs/gameApplication/v15/Browse.VC.db
+*.tlog
+*.pdb
