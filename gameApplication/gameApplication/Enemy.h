@@ -6,7 +6,7 @@ using namespace sf;
 class Enemy {
 public:
 
-	Enemy(float sizeX, float sizeY, float posX, float posY, Color color);
+	Enemy(float sizeX, float sizeY, float posX, float posY, float originX, float originY, Color color);
 
 	void drawTo(RenderWindow &window);
 
@@ -15,6 +15,8 @@ public:
 	int getY();
 
 	bool isKilled();
+
+	FloatRect getGlobalBoundsOfEnemy();
 
 private:
 	int enemyHitpoints;

@@ -1,18 +1,17 @@
 #pragma once
+#include <SFML/Graphics.hpp>
+using namespace sf;
 
 class Tower {
 public:
+	Tower(float sizeX, float sizeY, Color color, int towerDamage);
 
-	Tower(int towerDamage, int towerRange, int towerAttackSpeed) {
+	void drawTo(RenderWindow &window);
 
-	}
-
-	void towerCost() {
-
-	}
+	~Tower();
 
 private:
 
-	int towerCostModifier = 1.1;
-
+	RectangleShape tower;
 };
+
