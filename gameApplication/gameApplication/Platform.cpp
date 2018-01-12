@@ -19,5 +19,4 @@ bool Platform::collisionDetection(Enemy enemy) {
 	} else {
 		return false;
 	}
-	return true;
 }
