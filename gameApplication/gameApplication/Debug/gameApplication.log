@@ -1,2 +1,3 @@
 ﻿  gameApplication.cpp
+c:\users\pc\documents\tower-defense-game\gameapplication\gameapplication\gameapplication.cpp(16): warning C4930: 'Player player(void)': prototyped function not called (was a variable definition intended?)
   gameApplication.vcxproj -> C:\Users\PC\Documents\Tower-defense-game\gameApplication\Debug\gameApplication.exe

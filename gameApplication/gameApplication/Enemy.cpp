@@ -21,6 +21,10 @@ int Enemy::getY() {
 	return enemy.getPosition().y;
 }
 
+int Enemy::getX() {
+	return enemy.getPosition().x;
+}
+
 FloatRect Enemy::getGlobalBoundsOfEnemy() {
 	return enemy.getGlobalBounds();
 }

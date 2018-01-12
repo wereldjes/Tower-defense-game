@@ -14,6 +14,8 @@ public:
 
 	int getY();
 
+	int getX();
+
 	bool isKilled();
 
 	FloatRect getGlobalBoundsOfEnemy();

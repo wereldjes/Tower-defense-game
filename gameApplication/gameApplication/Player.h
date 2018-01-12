@@ -1,21 +1,16 @@
 #pragma once
+#include "stdafx.h"
+#include "Enemy.h"
 
 class Player {
 public:
+	Player();
 
-	Player() {
+	int getPlayerMoney();
 
-	}
+	int getPlayerHitpoints();
 
-	void isGameOver() {
-		if (lives == 0) {
-			//game over logic
-		}
-	}
-
-	void moneyEarned() {
-		// if enemy isKilled money+=moneyWorth
-	}
+	void playerHitpoints(Enemy enemy);
 
 private:
 	
