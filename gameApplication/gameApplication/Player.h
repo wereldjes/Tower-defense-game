@@ -14,6 +14,6 @@ public:
 
 private:
 	
-	int money = 0;
+	int money = 100;
 	int lives = 20;
 };

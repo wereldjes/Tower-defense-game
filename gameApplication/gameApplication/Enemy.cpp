@@ -16,7 +16,7 @@ void Enemy::enemyDrawChecker(RenderWindow &window, Enemy enemyEntity) {
 
 	if (!enemyEntity.isKilled()) {
 		window.draw(enemy);
-	} else if (enemyEntity.getX() < 1000) {
+	} else if (enemyEntity.getX() < 974) {
 		window.draw(enemy);
 	}
 }
