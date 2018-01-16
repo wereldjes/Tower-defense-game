@@ -17,3 +17,9 @@ void Player::playerHitpoints(Enemy enemy) {
 		//Game Over
 	}
 }
+
+int Player::getHealth() {
+	
+
+	return lives;
+}

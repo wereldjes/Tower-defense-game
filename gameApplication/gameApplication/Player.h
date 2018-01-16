@@ -12,8 +12,11 @@ public:
 
 	void playerHitpoints(Enemy enemy);
 
+	int getHealth();
+
 private:
 	
 	int money = 100;
 	int lives = 20;
+
 };
