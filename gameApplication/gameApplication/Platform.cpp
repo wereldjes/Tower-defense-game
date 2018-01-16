@@ -12,11 +12,6 @@ void Platform::drawTo(RenderWindow &window) {
 	window.draw(platform);
 }
 
-//check if enemyObject has collision with platformObject. if it has collision, send true and adjust player speed according to the platform being hit
-bool Platform::collisionDetection(Enemy enemy) {
-	if (platform.getGlobalBounds().intersects(enemy.getGlobalBoundsOfEnemy())) {
-		return true;
-	} else {
-		return false;
-	}
+FloatRect Platform::getGlobalBoundsOfPlatform() {
+	return platform.getGlobalBounds();
 }

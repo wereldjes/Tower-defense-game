@@ -350,3 +350,4 @@ gameApplication/.vs/gameApplication/v15/Browse.VC.db
 gameApplication/.vs/gameApplication/v15/Browse.VC.db
 *.tlog
 *.pdb
+gameApplication/gameApplication/Platform.h
