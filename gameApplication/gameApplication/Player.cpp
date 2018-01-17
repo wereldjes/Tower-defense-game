@@ -4,12 +4,12 @@ Player::Player() {
 
 }
 
-String Player::getPlayerMoney() {
-	String s = std::to_string(money);
-	return s;
+int Player::getPlayerMoney() {
+
+	return money;
 }
 
-String Player::getHealth() {
-	String s = std::to_string(lives);
-	return s;
+int Player::getHealth() {
+
+	return lives;
 }

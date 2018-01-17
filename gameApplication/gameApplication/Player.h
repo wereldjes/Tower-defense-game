@@ -7,9 +7,9 @@ class Player {
 public:
 	Player();
 
-	String getPlayerMoney();
+	int getPlayerMoney();
 
-	String getHealth();
+	int getHealth();
 
 	void setPlayerHealth(int lives);
 
