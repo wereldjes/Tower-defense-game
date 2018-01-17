@@ -18,6 +18,8 @@ void Enemy::enemyDrawChecker(RenderWindow &window, Enemy enemyEntity) {
 		window.draw(enemy);
 	} else if (enemyEntity.getX() < 974) {
 		window.draw(enemy);
+	} else {
+		std::cout << "-1 live";
 	}
 }
 

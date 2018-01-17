@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="ApplicationButton.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FontManager.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="Platform.h" />
     <ClInclude Include="Player.h" />
@@ -165,6 +166,7 @@
     <ClCompile Include="Enemy.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="FontManager.cpp" />
     <ClCompile Include="gameApplication.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Platform.cpp">

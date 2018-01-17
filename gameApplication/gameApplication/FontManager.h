@@ -9,10 +9,12 @@ public:
 
 	~FontManager();
 
-	void loadFont();
+	Text setText(String string, float posX, float posY);
+
+	void drawTo(Text text,RenderWindow &window);
 
 private:
-	String text;
+	Text text;
 
 	Font myFont;
 };

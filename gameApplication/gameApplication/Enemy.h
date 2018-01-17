@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <SFML\Graphics.hpp>
 #include "Platform.h"
+#include "Player.h"
 using namespace sf;
 
 class Enemy {

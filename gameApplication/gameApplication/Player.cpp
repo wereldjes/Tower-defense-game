@@ -4,22 +4,12 @@ Player::Player() {
 
 }
 
-int Player::getPlayerMoney() {
-	return money;
+String Player::getPlayerMoney() {
+	String s = std::to_string(money);
+	return s;
 }
 
-int Player::getPlayerHitpoints() {
-	return lives;
-}
-
-void Player::playerHitpoints(Enemy enemy) {
-	if (lives == 0) {
-		//Game Over
-	}
-}
-
-int Player::getHealth() {
-	
-
-	return lives;
+String Player::getHealth() {
+	String s = std::to_string(lives);
+	return s;
 }

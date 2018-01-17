@@ -1,18 +1,17 @@
 #pragma once
 #include "stdafx.h"
 #include "Enemy.h"
+#include <iostream>
 
 class Player {
 public:
 	Player();
 
-	int getPlayerMoney();
+	String getPlayerMoney();
 
-	int getPlayerHitpoints();
+	String getHealth();
 
-	void playerHitpoints(Enemy enemy);
-
-	int getHealth();
+	void setPlayerHealth(int lives);
 
 private:
 	
