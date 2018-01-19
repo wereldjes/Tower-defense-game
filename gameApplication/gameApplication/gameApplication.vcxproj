@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LevelManager.h" />
     <ClInclude Include="TowerButton.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EntityPool.h" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Tower.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="TowerButton.cpp" />
     <ClCompile Include="Enemy.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>

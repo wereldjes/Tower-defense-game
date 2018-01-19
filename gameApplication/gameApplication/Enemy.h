@@ -7,6 +7,7 @@ using namespace sf;
 
 class Enemy {
 public:
+	Enemy();
 
 	Enemy(float sizeX, float sizeY, float posX, float posY, float originX, float originY, Color color);
 

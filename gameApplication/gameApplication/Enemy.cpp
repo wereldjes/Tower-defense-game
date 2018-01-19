@@ -1,5 +1,9 @@
 #include "Enemy.h"
 
+Enemy::Enemy() {
+
+}
+
 Enemy::Enemy(float sizeX, float sizeY, float posX, float posY, float originX, float originY, Color color) {
 	enemy.setSize(Vector2f(sizeX, sizeY));
 	enemy.setPosition(Vector2f(posX, posY));
