@@ -19,7 +19,7 @@ void Enemy::enemyDrawChecker(RenderWindow &window, Enemy enemyEntity) {
 	} else if (enemyEntity.getX() < 974) {
 		window.draw(enemy);
 	} else {
-		std::cout << "health -1";
+		//std::cout << "health -1";
 	}
 }
 
