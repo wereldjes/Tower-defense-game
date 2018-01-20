@@ -25,7 +25,7 @@ public:
 
 private:
 
-	const float GRAVITY_SPEED = 5.f;
+	float gravity_speed = 5.f;
 	
 	int enemyHitpoints;
 

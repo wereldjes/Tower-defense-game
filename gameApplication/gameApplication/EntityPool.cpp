@@ -9,16 +9,17 @@
 EntityPool::EntityPool() {
 }
 
-
 EntityPool::~EntityPool() {
 }
 
-void EntityPool::createEnemyPool(Enemy enemy, int enemyCount) {
-	
+std::vector<Enemy> EntityPool::createEnemyPool(Enemy enemy, int enemyCount) {
 
-}
+	std::vector<Enemy> tempPool(enemyCount);
 
-Enemy* EntityPool::getEnemyPool() {
+	for (int i=0; i < enemyCount; i++) {
+		tempPool.push_back(enemy);
+	}
+	enemyPool = tempPool;
 
 	return enemyPool;
 }

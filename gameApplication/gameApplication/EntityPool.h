@@ -8,10 +8,8 @@ public:
 	EntityPool();
 	~EntityPool();
 
-	void createEnemyPool(Enemy enemy, int enemyCount);
-
-	Enemy* getEnemyPool();
+	std::vector<Enemy> createEnemyPool(Enemy enemy, int enemyCount);
 private:
-	Enemy enemyPool[20];
+	std::vector<Enemy> enemyPool;
 };
 

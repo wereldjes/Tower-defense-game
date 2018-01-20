@@ -53,6 +53,6 @@ void Enemy::collisionDetection(Platform platformEntity) {
 	if (enemy.getGlobalBounds().intersects(platformEntity.getGlobalBoundsOfPlatform())) {
 		enemy.move({ 0,0 });
 	} else {
-		enemy.move({ 0, GRAVITY_SPEED });
+		enemy.move({ 0, gravity_speed });
 	}
 }
