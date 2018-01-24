@@ -17,7 +17,7 @@ LevelManager::~LevelManager() {
 
 std::vector<EntityPool> LevelManager::LevelOne(RenderWindow &window) {
 	std::vector<EntityPool> bigBoyVector;
-	bigBoyVector.insert(levelOne.createEnemyPool(enemySadness, 5));
+//	bigBoyVector.insert(levelOne.createEnemyPool(enemySadness, 5));
 	
 	return bigBoyVector;
 }
